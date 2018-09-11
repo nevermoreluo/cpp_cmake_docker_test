@@ -7,4 +7,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp_test main.cpp)
+add_executable(cpp_test main/main.cpp main/console.h main/console_linux.cpp main/console_win.cpp)
