@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2001, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2001, Valve LLC, All rights reserved. ============
 //
 // Purpose: Memory allocation!
 //
@@ -393,7 +393,7 @@ int CValidateAlloc::heapchk()
 
 #ifdef _WIN32
 	return bOk ? _HEAPOK : 0;
-#elif _LINUX
+#elif __linux__
 	return bOk;
 #endif
 }

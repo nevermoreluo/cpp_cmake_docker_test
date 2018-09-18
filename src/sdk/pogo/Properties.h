@@ -5,7 +5,7 @@
 #pragma once
 #include <map>
 #include <string>
-#include <boost/smart_ptr.hpp>
+#include "boost/smart_ptr.hpp"
 #include "PogoCommon.h"
 
 typedef void* FileHandle_t;

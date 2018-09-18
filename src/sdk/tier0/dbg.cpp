@@ -90,7 +90,7 @@ DBG_INTERFACE void AssertValidStringPtr( const char* ptr, int maxchar/* = 0xFFFF
 
 SpewRetval_t DefaultSpewFunc( SpewType_t type, char const *pMsg )
 {
-#ifdef _LINUX
+#ifdef __linux__
 	printf( "%s", pMsg );
 #elif _WIN32
 	OutputDebugString(pMsg);

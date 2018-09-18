@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2001, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2001, Valve LLC, All rights reserved. ============
 //
 // Purpose: Memory allocation!
 //
@@ -28,7 +28,7 @@
 MEM_INTERFACE void *MemAllocScratch( int nMemSize );
 MEM_INTERFACE void MemFreeScratch();
 
-#ifdef _LINUX
+#ifdef __linux__
 MEM_INTERFACE void ZeroMemory( void *mem, size_t length );
 #endif
 

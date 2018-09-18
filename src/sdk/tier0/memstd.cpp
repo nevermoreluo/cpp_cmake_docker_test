@@ -94,7 +94,7 @@ void *CStdMemAlloc::Expand( void *pMem, size_t nSize )
 {
 #ifdef _WIN32
 	return _expand( pMem, nSize );
-#elif _LINUX
+#elif __linux__
 	return realloc( pMem, nSize );
 #endif
 }
@@ -122,7 +122,7 @@ void *CStdMemAlloc::Expand( void *pMem, size_t nSize, const char *pFileName, int
 {
 #ifdef _WIN32
 	return _expand( pMem, nSize );
-#elif _LINUX
+#elif __linux__
 	return realloc( pMem, nSize );
 #endif
 }
@@ -135,7 +135,7 @@ size_t CStdMemAlloc::GetSize( void *pMem )
 {
 #ifdef _WIN32
 	return _msize( pMem );
-#elif _LINUX
+#elif __linux__
 	Assert( "GetSize() not implemented");
 #endif
 }
@@ -207,7 +207,7 @@ int CStdMemAlloc::heapchk()
 {
 #ifdef _WIN32
 	return _HEAPOK;
-#elif _LINUX
+#elif __linux__
 	return 1;
 #endif
 }

@@ -5,8 +5,8 @@
 #pragma once
 
 #include <vector>
-#include <boost/array.hpp>
-#include <boost/smart_ptr.hpp>
+#include "boost/array.hpp"
+#include "boost/smart_ptr.hpp"
 #include "PogoCommon.h"
 #include "Properties.h"
 #include "Exception.h"

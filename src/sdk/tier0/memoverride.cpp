@@ -18,7 +18,7 @@
 #define _DEBUG 1
 #include "crtdbg.h"
 
-#elif _LINUX
+#elif __linux__
 #define __cdecl
 #endif
 
@@ -269,7 +269,7 @@ private:
 
 
 #define AttribIfCrt() CAttibCRT _attrib(nBlockUse)
-#elif _LINUX
+#elif __linux__
 #define AttribIfCrt()
 #endif // _WIN32
 
@@ -324,7 +324,7 @@ size_t __cdecl _msize_dbg( void *pMem, int nBlockUse )
 {
 #ifdef _WIN32
 	return _msize(pMem);
-#elif _LINUX
+#elif __linux__
 	Assert( "_msize_dbg unsupported" );
 	return 0;
 #endif

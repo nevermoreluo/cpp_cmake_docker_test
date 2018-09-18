@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2001, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2001, Valve LLC, All rights reserved. ============
 //
 // Purpose: Memory allocation!
 //
@@ -48,7 +48,7 @@ void *MemAllocScratch( int nMemSize )
 				s_pBuf = (unsigned char*)_expand( s_pBuf, s_nBufAllocSize );
 				Assert( s_pBuf );
 			}
-#elif _LINUX
+#elif __linux__
 			s_pBuf = (unsigned char*)realloc( s_pBuf, s_nBufAllocSize );
 			Assert( s_pBuf );	
 #endif
@@ -76,7 +76,7 @@ void MemFreeScratch()
 }
 
 
-#ifdef _LINUX
+#ifdef __linux__
 void ZeroMemory( void *mem, size_t length )
 {
 	memset( mem, 0x0, length );

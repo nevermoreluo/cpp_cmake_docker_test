@@ -2,7 +2,7 @@
 // (C) Electronic Arts 2005
 //
 
-#include <boost/algorithm/string.hpp>
+#include "boost/algorithm/string.hpp"
 #include "Properties.h"
 #include "PogoCommon.h"
 #include "tier0/dbg.h"

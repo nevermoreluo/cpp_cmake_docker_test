@@ -38,7 +38,7 @@ void recordpid()
 
 void game_init()
 {
-#ifdef _LINUX
+#ifdef __linux__
     char *root = getenv(SERVER_ROOT);
 
 	if (root == NULL)

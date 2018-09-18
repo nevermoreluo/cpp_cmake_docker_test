@@ -16,7 +16,7 @@
 
 #ifdef _WIN32
 #pragma once
-#elif _LINUX
+#elif __linux__
 #include <ctype.h>
 #endif
 
@@ -63,7 +63,7 @@ VSTDLIB_INTERFACE char*	_Q_strlower (const char* file, int line, char *start);
 
 #else
 
-#ifdef _LINUX
+#ifdef __linux__
 inline char *strupr( char *start )
 {
       char *str = start;

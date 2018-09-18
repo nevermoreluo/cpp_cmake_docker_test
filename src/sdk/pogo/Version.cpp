@@ -1,8 +1,8 @@
 //
 // (C) Electronic Arts 2006
 //
-#include <boost/lexical_cast.hpp>
-#include <boost/algorithm/string.hpp>
+#include "boost/lexical_cast.hpp"
+#include "boost/algorithm/string.hpp"
 #include <vector>
 #include "Version.h"
 

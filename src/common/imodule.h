@@ -21,7 +21,7 @@ $Log$
 
 #include "appframework/iappsystem.h"
 #include "Runnable.h"
-#include <boost/shared_ptr.hpp>
+#include "boost/shared_ptr.hpp"
 
 namespace Pogo
 {

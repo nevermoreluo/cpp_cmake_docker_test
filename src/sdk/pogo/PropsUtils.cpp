@@ -2,9 +2,9 @@
 // (C) Electronic Arts 2006
 // 
 
-#include<boost/algorithm/string.hpp>
-#include<boost/tokenizer.hpp>
-#include<boost/lexical_cast.hpp>
+#include"boost/algorithm/string.hpp"
+#include"boost/tokenizer.hpp"
+#include"boost/lexical_cast.hpp"
 
 #include "PogoCommon.h"
 #include "PropsUtils.h"

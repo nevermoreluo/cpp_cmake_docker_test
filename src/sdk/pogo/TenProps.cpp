@@ -8,7 +8,7 @@
 #include "PogoCommon.h"
 #include "TenProps.h"
 #include "tier0/dbg.h"
-#include <boost/tokenizer.hpp>
+#include "boost/tokenizer.hpp"
 #include <iostream>
 
 static std::string DEFNAME = "def.properties";

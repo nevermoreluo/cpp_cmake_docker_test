@@ -28,7 +28,7 @@
 
 // need this for memset
 #include <string.h>
-
+#include <inttypes.h>
 // for when we care about how many bits we use
 typedef signed char      int8;
 typedef signed short     int16;
@@ -38,7 +38,7 @@ typedef signed long      int32;
 #ifdef _MSC_VER
 typedef signed __int64   int64;
 #endif
-#elif defined _LINUX
+#elif defined __linux__
 typedef long long	int64;
 #endif
 
@@ -49,7 +49,7 @@ typedef unsigned long      uint32;
 #ifdef _MSC_VER
 typedef unsigned __int64   uint64;
 #endif
-#elif defined _LINUX
+#elif defined __linux__
 typedef unsigned long long uint64;
 #endif
 
@@ -116,7 +116,7 @@ FIXME: Enable this when we no longer fear change =)
 #define __i386__	1
 #endif
 
-#elif _LINUX
+#elif __linux__
 typedef unsigned int uint;
 typedef unsigned short WORD;
 typedef void * HINSTANCE;
@@ -159,7 +159,7 @@ typedef void * HINSTANCE;
 // Can't use extern "C" when DLL exporting a global
 #define  DLL_GLOBAL_EXPORT   extern __declspec( dllexport ) 
 #define  DLL_GLOBAL_IMPORT   extern __declspec( dllimport )
-#elif defined _LINUX
+#elif defined __linux__
 
 // Used for dll exporting and importing
 #define  DLL_EXPORT   extern "C" 
@@ -219,7 +219,7 @@ typedef void * HINSTANCE;
 // Alloca defined for this platform
 #define  stackalloc( _size ) _alloca( _size )
 #define  stackfree( _p )   0
-#elif _LINUX
+#elif __linux__
 // Alloca defined for this platform
 #define  stackalloc( _size ) alloca( _size )
 #define  stackfree( _p )   0
@@ -420,7 +420,7 @@ struct CPUInformation
 	unsigned char m_nLogicalProcessors,		// Number op logical processors.
 		          m_nPhysicalProcessors;	// Number of physical processors
 
-	int64 m_Speed;						// In cycles per second.
+	int64_t m_Speed;						// In cycles per second.
 
 	char* m_szProcessorID;				// Processor vendor Identification.
 };
@@ -429,7 +429,8 @@ PLATFORM_INTERFACE const CPUInformation& GetCPUInformation();
 
 // ---------------------------------------------------------------------------------- //
 // Memory allocation.
-// ---------------------------------------------------------------------------------- //
+// ---------------------------------------------------------------------------------- //
+
 typedef void (*Plat_AllocErrorFn)( unsigned long size );
 
 // Use these to allocate and free memory.
