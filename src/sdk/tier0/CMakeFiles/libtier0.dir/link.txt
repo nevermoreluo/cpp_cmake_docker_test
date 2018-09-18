@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -Wl,--export-all-symbols -shared -Wl,-soname,liblibtier0.so -o lib/liblibtier0.so CMakeFiles/libtier0.dir/platform_linux.cpp.o CMakeFiles/libtier0.dir/dbg.cpp.o CMakeFiles/libtier0.dir/mem.cpp.o CMakeFiles/libtier0.dir/memstd.cpp.o CMakeFiles/libtier0.dir/security_linux.cpp.o CMakeFiles/libtier0.dir/recording.cpp.o 

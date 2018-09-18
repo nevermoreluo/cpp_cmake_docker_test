@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.12)
+project(pixelpai)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(pixelpai src/main/main.cpp src/main/game.h src/main/game.cpp src/main/logsystem.h src/main/logsystem.cpp)

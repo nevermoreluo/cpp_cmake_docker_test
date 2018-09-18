@@ -1,0 +1,3 @@
+/home/never/CLionProjects/pixelpai/src/sdk/tier0/CMakeFiles/rebuild_cache.dir
+/home/never/CLionProjects/pixelpai/src/sdk/tier0/CMakeFiles/edit_cache.dir
+/home/never/CLionProjects/pixelpai/src/sdk/tier0/CMakeFiles/libtier0.dir

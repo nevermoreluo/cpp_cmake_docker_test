@@ -1,0 +1,5 @@
+filenames	:= platform_linux dbg mem memstd security_linux recording 
+lib_output_file := libtier0.so
+
+include ../build/build.mk
+
