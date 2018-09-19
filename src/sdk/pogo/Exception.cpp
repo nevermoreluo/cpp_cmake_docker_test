@@ -1,7 +1,7 @@
 #include "PogoCommon.h"
 #include "Exception.h"
 
-#ifdef _LINUX
+#ifdef __linux__
 #include <string.h>
 #endif
 
@@ -33,7 +33,7 @@ std::string Exception::FormatCallerInfo( std::string file, std::string function,
 
 #ifdef _WIN32
 	size_t idxFile = file.find_last_of("\\");
-#elif _LINUX
+#elif __linux__
 	size_t idxFile = file.find_last_of("/");
 #endif
 

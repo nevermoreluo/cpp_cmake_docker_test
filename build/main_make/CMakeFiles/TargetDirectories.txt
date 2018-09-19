@@ -1,0 +1,12 @@
+/home/never/CLionProjects/pixelpai/build/main_make/CMakeFiles/rebuild_cache.dir
+/home/never/CLionProjects/pixelpai/build/main_make/CMakeFiles/edit_cache.dir
+/home/never/CLionProjects/pixelpai/build/main_make/CMakeFiles/main.dir
+/home/never/CLionProjects/pixelpai/build/pogo.out/CMakeFiles/rebuild_cache.dir
+/home/never/CLionProjects/pixelpai/build/pogo.out/CMakeFiles/edit_cache.dir
+/home/never/CLionProjects/pixelpai/build/pogo.out/CMakeFiles/pogo.dir
+/home/never/CLionProjects/pixelpai/build/tier0.out/CMakeFiles/rebuild_cache.dir
+/home/never/CLionProjects/pixelpai/build/tier0.out/CMakeFiles/edit_cache.dir
+/home/never/CLionProjects/pixelpai/build/tier0.out/CMakeFiles/tier0.dir
+/home/never/CLionProjects/pixelpai/build/common.out/CMakeFiles/rebuild_cache.dir
+/home/never/CLionProjects/pixelpai/build/common.out/CMakeFiles/edit_cache.dir
+/home/never/CLionProjects/pixelpai/build/common.out/CMakeFiles/common.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/never/CLionProjects/pixelpai/build/lib/libtier0.a  CMakeFiles/tier0.dir/extendedtrace.cpp.o CMakeFiles/tier0.dir/memdbg.cpp.o CMakeFiles/tier0.dir/memoverride.cpp.o CMakeFiles/tier0.dir/memvalidate.cpp.o CMakeFiles/tier0.dir/platform_linux.cpp.o CMakeFiles/tier0.dir/dbg.cpp.o CMakeFiles/tier0.dir/mem.cpp.o CMakeFiles/tier0.dir/memstd.cpp.o CMakeFiles/tier0.dir/security_linux.cpp.o CMakeFiles/tier0.dir/recording.cpp.o
+/usr/bin/ranlib /home/never/CLionProjects/pixelpai/build/lib/libtier0.a

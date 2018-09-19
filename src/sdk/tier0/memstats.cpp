@@ -1,11 +1,11 @@
-//========= Copyright © 1996-2001, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2001, Valve LLC, All rights reserved. ============
 //
 // Purpose: Maintains memory statistics
 //
 //=============================================================================
 
 #include <malloc.h>
-#include "tier0/Dbg.h"
+#include "tier0/dbg.h"
 #include "tier0/mem.h"
 #include <map>
 

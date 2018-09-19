@@ -22,7 +22,7 @@
 #include <string.h>
 #ifdef _WIN32
 #include <new.h>
-#elif _LINUX
+#elif __linux__
 #include <new>
 #endif
 #include "tier0/platform.h"

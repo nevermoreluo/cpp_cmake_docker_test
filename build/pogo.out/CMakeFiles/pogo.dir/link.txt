@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/never/CLionProjects/pixelpai/build/lib/libpogo.a  CMakeFiles/pogo.dir/Exception.cpp.o CMakeFiles/pogo.dir/IdGenerator.cpp.o CMakeFiles/pogo.dir/PogoUtils.cpp.o CMakeFiles/pogo.dir/PropsUtils.cpp.o CMakeFiles/pogo.dir/Properties.cpp.o CMakeFiles/pogo.dir/TenProps.cpp.o CMakeFiles/pogo.dir/Version.cpp.o CMakeFiles/pogo.dir/home/never/CLionProjects/pixelpai/src/sdk/common/interface.cpp.o
+/usr/bin/ranlib /home/never/CLionProjects/pixelpai/build/lib/libpogo.a

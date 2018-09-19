@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/never/CLionProjects/pixelpai/build/lib/libcommon.a  CMakeFiles/common.dir/vstdlib/commandline.cpp.o CMakeFiles/common.dir/vstdlib/strtools.cpp.o CMakeFiles/common.dir/filesystem.cpp.o CMakeFiles/common.dir/interface.cpp.o CMakeFiles/common.dir/launcher.cpp.o CMakeFiles/common.dir/utlsymbol.cpp.o
+/usr/bin/ranlib /home/never/CLionProjects/pixelpai/build/lib/libcommon.a

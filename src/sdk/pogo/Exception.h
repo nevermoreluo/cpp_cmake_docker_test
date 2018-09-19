@@ -23,7 +23,7 @@ namespace Pogo
 		// Get information about where the exception was thrown
 		Exception( std::string desc, std::string traceInfo = "" );
 
-#ifdef _LINUX
+#ifdef __linux__
 		virtual ~Exception() throw() {}
 #endif
 

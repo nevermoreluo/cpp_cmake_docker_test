@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="main"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\sdk\;CMake Files\..\sdk\common\;CMake Files\..\sdk\pogo\;CMake Files\..\sdk\tier0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/main_make"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/main_make"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/main_make"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/never/CLionProjects/pixelpai/build/bin/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/main_make/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/never/CLionProjects/pixelpai/build/bin/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/main_make/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/main_make/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pogo">
+				<Option output="/home/never/CLionProjects/pixelpai/build/lib/libpogo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/pogo.out"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/.."/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/../value/public"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 pogo"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pogo/fast">
+				<Option output="/home/never/CLionProjects/pixelpai/build/lib/libpogo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/pogo.out"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/.."/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/../value/public"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 pogo/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tier0">
+				<Option output="/home/never/CLionProjects/pixelpai/build/lib/libtier0.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/tier0.out"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/tier0/.."/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/tier0/../common"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/tier0.out/Makefile&quot;  VERBOSE=1 tier0"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/tier0.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/tier0.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/tier0.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tier0/fast">
+				<Option output="/home/never/CLionProjects/pixelpai/build/lib/libtier0.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/tier0.out"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/tier0/.."/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/tier0/../common"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/tier0.out/Makefile&quot;  VERBOSE=1 tier0/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/tier0.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/tier0.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/tier0.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/home/never/CLionProjects/pixelpai/build/lib/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/common.out"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/common.out/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/common.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/common.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/common.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/home/never/CLionProjects/pixelpai/build/lib/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/common.out"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/common.out/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/common.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/common.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/common.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/console_linux.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/game.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/game.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/logsystem.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/logsystem.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/module.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/module.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/filesystem.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/filesystem.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/interface.cpp">
+			<Option target="pogo"/>
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/interface.h">
+			<Option target="pogo"/>
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/launcher.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/launcher.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/utlsymbol.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/utlsymbol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/vstdlib/commandline.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/vstdlib/strtools.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/vstdlib/strtools.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Exception.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Exception.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/IdGenerator.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/IdGenerator.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/PogoUtils.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Properties.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Properties.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/PropsUtils.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/PropsUtils.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/TenProps.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/TenProps.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Version.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Version.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/dbg.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/dbg.h">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/extendedtrace.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/extendedtrace.h">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/mem.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/mem.h">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/memdbg.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/memoverride.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/memstd.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/memvalidate.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/platform_linux.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/recording.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/recording.h">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/tier0/security_linux.cpp">
+			<Option target="tier0"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/../sdk/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\sdk\common\"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\sdk\pogo\"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/../sdk/tier0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\sdk\tier0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

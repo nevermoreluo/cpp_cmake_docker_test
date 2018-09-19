@@ -229,7 +229,7 @@ void Properties::AddHashToFile( const std::wstring &filename )
 	// Note that AddHashToFile will NOT be using PakFile system as writing is needed
 #ifdef _WIN32
 	FILE *fp = _wfopen( filename.c_str(), L"rb" );
-#elif _LINUX
+#elif __linux__
 	FILE *fp = fopen( Pogo::WideToNarrow(filename).c_str(), "rb" );
 #endif
 	if( !fp )
@@ -289,7 +289,7 @@ void Properties::AddHashToFile( const std::wstring &filename )
 	// Create the file stream
 #ifdef _WIN32
 	fp = _wfopen( filename.c_str(), L"wb" );
-#elif _LINUX
+#elif __linux__
 	fp = fopen( Pogo::WideToNarrow(filename).c_str(), "wb" );
 #endif
 	if( !fp )

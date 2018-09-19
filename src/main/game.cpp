@@ -6,11 +6,9 @@
 
 #include "launcher.h"
 #include "module.h"
-#include "ifilesystem.h"
 #include "filesystem.h"
 #include "vstdlib/icommandline.h"
 #include "PropsUtils.h"
-#include "tier0/dbg.h"
 #include "PogoCommon.h"
 #include "console.h"
 #include "game.h"
@@ -54,10 +52,6 @@ void game_init()
     {
         Error("%s : Failed to call load app systems\n", __FUNCTION__);
     }
-
-    g_pFileSystem->SetGameDirectory(server_root.data());
-
-    g_pFileSystem->AddSearchPath(server_root.data(), "ROOT_PATH", PATH_ADD_TO_HEAD);
 
     console::Init();
 

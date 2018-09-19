@@ -26,7 +26,7 @@ static bool Internal_Load(const std::wstring& prefix)
 {
 	std::string dll = Pogo::WideToNarrow(Pogo::PropsUtils::MakeString(prefix + L".dll", L""));
 
-#ifdef _LINUX
+#ifdef __linux__
 	size_t f = dll.rfind(".dll");
 	if (f != std::string::npos)
 	{

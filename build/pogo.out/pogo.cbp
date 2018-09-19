@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pogo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\sdk\;CMake Files\..\sdk\common\;CMake Files\..\sdk\pogo\;CMake Files\..\sdk\tier0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/pogo.out"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pogo">
+				<Option output="/home/never/CLionProjects/pixelpai/build/lib/libpogo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/pogo.out"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/.."/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/../value/public"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 pogo"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pogo/fast">
+				<Option output="/home/never/CLionProjects/pixelpai/build/lib/libpogo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/never/CLionProjects/pixelpai/build/pogo.out"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/main/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/.."/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/../common"/>
+					<Add directory="/home/never/CLionProjects/pixelpai/src/sdk/pogo/../value/public"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 pogo/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/never/CLionProjects/pixelpai/build/pogo.out/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/interface.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/common/interface.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Exception.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Exception.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/IdGenerator.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/IdGenerator.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/PogoUtils.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Properties.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Properties.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/PropsUtils.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/PropsUtils.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/TenProps.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/TenProps.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Version.cpp">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/sdk/pogo/Version.h">
+			<Option target="pogo"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/../sdk/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\sdk\common\"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/../sdk/pogo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\sdk\pogo\"/>
+		</Unit>
+		<Unit filename="/home/never/CLionProjects/pixelpai/src/main/../sdk/tier0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\sdk\tier0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
